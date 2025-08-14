@@ -1,0 +1,551 @@
+order_id,product,category,brand,quantity,price,discount,customer_id,region,payment_method,order_date,ship_date,status,sales_rep,warehouse
+1,Headphones,Accessories,HP,9,21474.39,0.27,2869,South,Debit Card,27-11-2023,02-06-2023,Shipped,Anita,WH-A
+2,Keyboard,Accessories,Dell,9,50201.57,0.22,6388,West,UPI,06-05-2023,07-06-2023,Shipped,David,WH-B
+3,Mouse,Peripherals,Dell,1,46724.59,0.11,4103,South,Credit Card,25-06-2023,16-04-2023,Shipped,David,WH-A
+4,Webcam,Accessories,Dell,3,16402.67,0.24,1149,West,Credit Card,15-12-2023,21-07-2023,Cancelled,David,WH-C
+5,Headphones,Electronics,Dell,7,73470.04,0.09,1821,South,Debit Card,19-09-2023,28-07-2023,Shipped,Sara,WH-B
+6,Tablet,Electronics,Samsung,6,4730.38,0.19,2412,West,Credit Card,15-01-2023,24-04-2023,Shipped,Ravi,WH-C
+7,Tablet,Peripherals,Dell,3,28025.76,0.27,9425,North,Credit Card,05-08-2023,16-11-2023,Shipped,John,WH-C
+8,Mouse,Peripherals,Dell,1,43336.84,0.25,8555,North,Credit Card,19-12-2023,26-01-2023,Delivered,Sara,WH-C
+9,Headphones,Electronics,Dell,2,54659.64,0.26,3291,South,UPI,17-01-2023,22-12-2023,Returned,Anita,WH-D
+10,Printer,Peripherals,Logitech,5,21133.21,0.25,4269,West,UPI,06-08-2023,14-06-2023,Delivered,Sara,WH-D
+11,Speaker,Peripherals,Apple,9,44005.76,0.04,1316,North,Cash on Delivery,25-10-2023,10-05-2023,Returned,Anita,WH-B
+12,Laptop,Accessories,Apple,3,60944.9,0.01,1884,North,Net Banking,18-03-2023,12-07-2023,Returned,David,WH-D
+13,Tablet,Electronics,HP,1,14867.26,0.17,7352,East,Net Banking,02-02-2023,18-07-2023,Delivered,John,WH-D
+14,Headphones,Electronics,Samsung,3,43374.95,0.24,2510,South,Net Banking,09-04-2023,06-09-2023,Cancelled,John,WH-D
+15,Headphones,Electronics,HP,7,78189.9,0.12,7416,North,Debit Card,23-11-2023,24-06-2023,Returned,Anita,WH-A
+16,Keyboard,Electronics,Dell,1,72833.05,0.18,5443,East,Debit Card,25-12-2023,23-09-2023,Shipped,David,WH-C
+17,Tablet,Peripherals,Samsung,7,22634.53,0.14,8077,East,Debit Card,26-04-2023,17-09-2023,Delivered,David,WH-B
+18,Keyboard,Accessories,Logitech,2,57313,0.13,7929,North,Cash on Delivery,11-12-2023,23-05-2023,Delivered,Ravi,WH-C
+19,Webcam,Peripherals,Lenovo,5,74049.19,0,5220,North,UPI,20-08-2023,01-07-2023,Returned,Anita,WH-D
+20,Tablet,Accessories,Logitech,8,23701.71,0.11,4373,East,Cash on Delivery,06-05-2023,24-07-2023,Delivered,John,WH-A
+21,Speaker,Electronics,Apple,1,18815.48,0.07,4607,West,Credit Card,14-11-2023,15-01-2023,Shipped,Priya,WH-B
+22,Headphones,Accessories,Samsung,6,21145.77,0.06,8878,East,Debit Card,16-11-2023,14-04-2023,Shipped,Ravi,WH-A
+23,Speaker,Accessories,HP,4,4508.3,0.17,4022,East,Net Banking,01-05-2023,18-06-2023,Shipped,Priya,WH-B
+24,Mouse,Accessories,Samsung,9,66499.45,0.24,6297,South,Net Banking,02-03-2023,10-09-2023,Shipped,John,WH-A
+25,Speaker,Electronics,Logitech,5,56185.47,0.09,8479,North,UPI,09-05-2023,09-07-2023,Shipped,Sara,WH-D
+26,Laptop,Peripherals,Dell,10,20733.6,0.07,8752,East,Cash on Delivery,06-07-2023,26-12-2023,Returned,Ravi,WH-B
+27,Monitor,Electronics,Lenovo,1,51016.87,0.13,1276,South,Cash on Delivery,16-09-2023,20-03-2023,Returned,John,WH-B
+28,Tablet,Accessories,Lenovo,9,37556.98,0.14,7613,South,UPI,11-11-2023,14-07-2023,Delivered,John,WH-B
+29,Tablet,Electronics,Logitech,5,7883.27,0.26,4823,South,Net Banking,28-07-2023,10-05-2023,Delivered,David,WH-A
+30,Monitor,Accessories,HP,6,45864.38,0.09,9119,West,Debit Card,05-08-2023,06-09-2023,Shipped,John,WH-A
+31,Printer,Accessories,Apple,8,29483.37,0,3423,North,Net Banking,08-04-2023,11-06-2023,Delivered,Ravi,WH-B
+32,Speaker,Peripherals,Dell,7,7096.91,0.06,9662,North,Credit Card,27-09-2023,18-09-2023,Shipped,David,WH-D
+33,Headphones,Electronics,HP,4,55103.16,0.19,5452,North,Credit Card,28-11-2023,17-04-2023,Cancelled,Sara,WH-A
+34,Mouse,Electronics,Samsung,1,69107.12,0.01,4767,East,Debit Card,25-04-2023,08-12-2023,Returned,Anita,WH-B
+35,Smartphone,Electronics,Logitech,1,34699.18,0.02,3003,South,UPI,14-10-2023,04-02-2023,Shipped,Priya,WH-C
+36,Mouse,Accessories,Lenovo,3,707.3,0.27,1479,East,Net Banking,08-12-2023,16-09-2023,Cancelled,David,WH-A
+37,Smartphone,Electronics,Dell,6,79775.59,0.1,4344,South,Credit Card,22-05-2023,26-03-2023,Returned,Priya,WH-C
+38,Speaker,Electronics,HP,4,46321.3,0.1,1905,West,Net Banking,16-01-2023,06-09-2023,Shipped,Anita,WH-C
+39,Speaker,Accessories,Apple,1,67182.24,0.16,5427,East,Net Banking,02-07-2023,05-06-2023,Returned,John,WH-C
+40,Laptop,Electronics,Samsung,3,51282.81,0.15,9007,West,Debit Card,23-05-2023,16-01-2023,Shipped,Sara,WH-D
+41,Smartphone,Peripherals,HP,8,41983.28,0.07,7069,North,Net Banking,20-08-2023,16-02-2023,Returned,John,WH-D
+42,Printer,Electronics,Samsung,8,60049.19,0.08,1737,West,Net Banking,02-03-2023,16-11-2023,Delivered,Ravi,WH-C
+43,Mouse,Accessories,Apple,2,68265.36,0,7979,West,UPI,18-04-2023,25-11-2023,Returned,Priya,WH-D
+44,Monitor,Peripherals,HP,5,36058.36,0.22,3704,South,Debit Card,16-12-2023,13-05-2023,Returned,Priya,WH-D
+45,Tablet,Accessories,HP,3,71140.22,0.16,4436,West,Credit Card,21-03-2023,05-03-2023,Delivered,Ravi,WH-D
+46,Keyboard,Peripherals,Apple,3,4588.43,0.28,3811,North,Net Banking,25-01-2023,09-09-2023,Shipped,John,WH-A
+47,Printer,Electronics,Apple,10,40821.76,0.22,3551,North,Net Banking,15-11-2023,06-08-2023,Shipped,Anita,WH-B
+48,Printer,Accessories,Dell,4,14597.59,0.16,4375,East,Credit Card,04-10-2023,22-09-2023,Shipped,Ravi,WH-C
+49,Mouse,Accessories,HP,9,51799.67,0.11,6218,East,Credit Card,12-12-2023,11-07-2023,Returned,Anita,WH-D
+50,Laptop,Electronics,Logitech,1,53853.35,0,1025,South,Debit Card,25-10-2023,28-06-2023,Delivered,Anita,WH-B
+51,Mouse,Peripherals,Samsung,10,22612.13,0.08,5122,West,UPI,04-08-2023,28-04-2023,Returned,Anita,WH-B
+52,Speaker,Electronics,Samsung,4,77564.3,0.1,4933,East,Cash on Delivery,22-05-2023,21-07-2023,Cancelled,Anita,WH-A
+53,Webcam,Peripherals,Apple,10,14833.63,0.19,5127,West,UPI,03-08-2023,17-08-2023,Delivered,Priya,WH-D
+54,Headphones,Accessories,HP,5,74833.75,0.25,5345,East,UPI,19-02-2023,25-03-2023,Cancelled,John,WH-D
+55,Mouse,Accessories,Samsung,5,24604.33,0.03,6660,South,Net Banking,13-05-2023,08-07-2023,Shipped,Anita,WH-A
+56,Mouse,Accessories,Apple,4,21608.89,0.26,4120,South,Cash on Delivery,21-11-2023,06-03-2023,Shipped,Sara,WH-B
+57,Laptop,Electronics,Dell,1,46520.32,0.29,8665,South,Net Banking,12-10-2023,21-03-2023,Returned,John,WH-D
+58,Keyboard,Accessories,Dell,8,49932.9,0.12,9092,North,Cash on Delivery,24-06-2023,20-07-2023,Shipped,John,WH-A
+59,Printer,Electronics,Lenovo,1,8048.81,0.03,3469,East,Net Banking,08-08-2023,17-06-2023,Cancelled,Anita,WH-D
+60,Mouse,Accessories,Logitech,2,17089.77,0.28,8756,North,Credit Card,04-09-2023,25-11-2023,Delivered,Priya,WH-D
+61,Smartphone,Accessories,Lenovo,6,9027.02,0.2,1425,East,Cash on Delivery,11-12-2023,22-09-2023,Delivered,Sara,WH-D
+62,Headphones,Electronics,HP,5,49906.86,0.05,6844,East,Debit Card,14-04-2023,04-06-2023,Delivered,Anita,WH-B
+63,Laptop,Accessories,Logitech,5,68734.23,0.11,9657,North,Credit Card,02-04-2023,12-02-2023,Cancelled,Priya,WH-C
+64,Laptop,Peripherals,Apple,6,43691.7,0.16,6830,North,Net Banking,01-01-2023,11-06-2023,Returned,Ravi,WH-D
+65,Headphones,Electronics,Samsung,7,23693.36,0.16,9354,East,Cash on Delivery,27-03-2023,19-07-2023,Returned,Ravi,WH-A
+66,Tablet,Electronics,HP,4,48296.08,0.09,7005,South,Debit Card,10-02-2023,10-03-2023,Delivered,Ravi,WH-B
+67,Printer,Accessories,Dell,3,26265.19,0.01,4517,East,UPI,05-11-2023,22-01-2023,Returned,Priya,WH-C
+68,Monitor,Accessories,HP,9,49953.19,0.11,2252,West,Cash on Delivery,24-11-2023,10-03-2023,Returned,Ravi,WH-A
+69,Headphones,Accessories,Samsung,9,42546.34,0.29,3727,East,Credit Card,03-11-2023,19-05-2023,Delivered,Sara,WH-B
+70,Tablet,Accessories,HP,1,24923.58,0.12,2947,West,Net Banking,18-08-2023,26-02-2023,Cancelled,Anita,WH-C
+71,Smartphone,Peripherals,Dell,9,45323.41,0.2,8352,West,UPI,08-02-2023,28-03-2023,Returned,John,WH-B
+72,Mouse,Peripherals,Apple,7,32930.58,0.28,9718,North,Debit Card,14-07-2023,17-07-2023,Cancelled,David,WH-C
+73,Smartphone,Accessories,HP,8,3679.31,0.21,3778,East,Net Banking,02-11-2023,26-09-2023,Cancelled,Ravi,WH-D
+74,Headphones,Accessories,Apple,7,45161.6,0.19,1032,West,Credit Card,20-12-2023,01-09-2023,Cancelled,Anita,WH-C
+75,Mouse,Accessories,HP,1,71045.91,0.05,7040,East,Debit Card,14-10-2023,09-12-2023,Returned,Priya,WH-B
+76,Keyboard,Electronics,HP,6,9133.63,0.17,1407,North,Cash on Delivery,03-05-2023,22-05-2023,Cancelled,Sara,WH-A
+77,Speaker,Peripherals,Lenovo,2,36572.13,0.25,6722,North,Net Banking,15-05-2023,12-01-2023,Shipped,John,WH-A
+78,Speaker,Peripherals,Dell,2,39949.78,0.24,2542,South,UPI,23-09-2023,06-05-2023,Shipped,Priya,WH-D
+79,Webcam,Peripherals,Lenovo,4,56722.66,0.25,7102,East,Net Banking,03-04-2023,03-12-2023,Cancelled,John,WH-B
+80,Webcam,Electronics,Dell,6,52799.14,0.08,9986,South,Debit Card,06-11-2023,25-03-2023,Cancelled,Anita,WH-A
+81,Keyboard,Accessories,Apple,6,79060.42,0.06,3953,South,Cash on Delivery,07-05-2023,14-11-2023,Cancelled,Anita,WH-A
+82,Laptop,Electronics,Lenovo,3,43296.18,0.3,6094,North,Credit Card,24-12-2023,28-01-2023,Cancelled,Ravi,WH-B
+83,Printer,Accessories,HP,5,13218.15,0.07,6723,North,UPI,22-12-2023,08-09-2023,Delivered,John,WH-D
+84,Mouse,Peripherals,Samsung,10,32951.59,0.26,6532,South,Debit Card,14-04-2023,04-08-2023,Returned,John,WH-D
+85,Speaker,Peripherals,Dell,7,62899.18,0.19,1741,North,Credit Card,01-10-2023,18-03-2023,Cancelled,Sara,WH-B
+86,Laptop,Accessories,HP,1,45960.94,0.29,6817,North,Credit Card,08-06-2023,13-04-2023,Returned,Anita,WH-B
+87,Keyboard,Electronics,Logitech,7,13806.47,0.16,3114,West,Debit Card,07-07-2023,25-07-2023,Returned,John,WH-D
+88,Tablet,Accessories,Logitech,5,17598.02,0.15,7011,West,Debit Card,24-06-2023,19-11-2023,Cancelled,Sara,WH-D
+89,Headphones,Electronics,Apple,7,14566.14,0.04,3289,West,UPI,26-07-2023,10-09-2023,Cancelled,Priya,WH-A
+90,Tablet,Accessories,Lenovo,8,35868.71,0.19,9437,West,UPI,21-10-2023,24-10-2023,Returned,Sara,WH-D
+91,Printer,Accessories,Logitech,3,26994.91,0.19,7106,South,Net Banking,24-02-2023,22-03-2023,Returned,Sara,WH-D
+92,Smartphone,Peripherals,Apple,10,46036.43,0.21,6658,South,Credit Card,23-06-2023,22-06-2023,Delivered,Anita,WH-B
+93,Webcam,Peripherals,Lenovo,9,61966.98,0.07,6419,South,Net Banking,20-08-2023,20-01-2023,Returned,Ravi,WH-A
+94,Smartphone,Peripherals,Lenovo,9,33484.71,0.26,9973,West,Credit Card,22-06-2023,09-01-2023,Returned,David,WH-C
+95,Tablet,Electronics,Logitech,7,47371.7,0.29,2360,North,Net Banking,13-04-2023,14-12-2023,Cancelled,Sara,WH-C
+96,Monitor,Peripherals,HP,2,30606.09,0.14,3254,North,Debit Card,15-07-2023,09-05-2023,Returned,Sara,WH-A
+97,Printer,Electronics,Dell,5,30632.62,0.15,1143,West,Debit Card,11-01-2023,24-08-2023,Delivered,Anita,WH-C
+98,Speaker,Electronics,Dell,3,44972.31,0.08,2450,South,Cash on Delivery,02-02-2023,17-06-2023,Returned,Anita,WH-A
+99,Printer,Accessories,Dell,7,1414.85,0.09,5353,West,Credit Card,21-05-2023,06-12-2023,Cancelled,John,WH-A
+100,Keyboard,Peripherals,Samsung,7,45244.31,0,9081,West,Debit Card,24-10-2023,05-02-2023,Delivered,Priya,WH-B
+101,Smartphone,Peripherals,Logitech,7,35255.37,0.24,9572,South,Debit Card,05-08-2023,18-12-2023,Cancelled,Anita,WH-B
+102,Monitor,Accessories,HP,2,29152.69,0.17,3875,South,Cash on Delivery,26-11-2023,24-07-2023,Returned,Priya,WH-D
+103,Webcam,Accessories,Lenovo,10,4404.54,0.02,1915,North,Credit Card,24-12-2023,18-12-2023,Returned,Priya,WH-D
+104,Smartphone,Accessories,Logitech,3,39267.62,0.09,9770,North,Debit Card,28-07-2023,01-09-2023,Shipped,Ravi,WH-D
+105,Mouse,Electronics,Apple,4,10338.43,0.28,9731,North,Cash on Delivery,08-01-2023,23-09-2023,Shipped,Priya,WH-D
+106,Mouse,Peripherals,Logitech,10,7621.22,0.07,9940,South,Credit Card,24-02-2023,04-05-2023,Delivered,Anita,WH-D
+107,Tablet,Peripherals,Dell,5,58584.14,0.27,8070,East,Net Banking,08-08-2023,13-04-2023,Delivered,David,WH-B
+108,Speaker,Peripherals,Samsung,4,49326.97,0.1,6768,North,Net Banking,05-06-2023,12-04-2023,Delivered,Anita,WH-B
+109,Smartphone,Peripherals,Logitech,4,11630.56,0.26,4722,West,UPI,09-03-2023,06-09-2023,Returned,Sara,WH-D
+110,Laptop,Peripherals,Logitech,8,4510.61,0.18,2541,East,UPI,06-11-2023,26-12-2023,Shipped,David,WH-A
+111,Headphones,Electronics,Dell,8,36530.29,0.24,5211,South,Cash on Delivery,11-02-2023,03-05-2023,Returned,Ravi,WH-C
+112,Monitor,Peripherals,Apple,3,52785.74,0.13,3810,West,UPI,19-02-2023,24-07-2023,Cancelled,Anita,WH-B
+113,Tablet,Electronics,Apple,4,21859.85,0.27,5877,West,Net Banking,21-03-2023,16-08-2023,Returned,Anita,WH-A
+114,Keyboard,Accessories,Lenovo,3,37581.59,0.12,9188,West,Debit Card,28-05-2023,13-04-2023,Delivered,Priya,WH-C
+115,Laptop,Peripherals,HP,3,14254.82,0.28,9588,South,UPI,28-01-2023,01-10-2023,Returned,Sara,WH-D
+116,Printer,Peripherals,Apple,7,34903.2,0.14,1452,East,Net Banking,28-03-2023,12-11-2023,Returned,Anita,WH-D
+117,Keyboard,Peripherals,Apple,9,33591.22,0.05,3750,West,Cash on Delivery,11-04-2023,09-01-2023,Cancelled,Priya,WH-D
+118,Mouse,Accessories,Apple,3,47208.81,0.29,8353,East,UPI,15-09-2023,21-11-2023,Returned,Ravi,WH-C
+119,Monitor,Accessories,Dell,6,4157.5,0.07,5378,West,UPI,17-11-2023,21-05-2023,Cancelled,David,WH-D
+120,Headphones,Accessories,Apple,6,13983.76,0.16,6557,North,Net Banking,18-03-2023,20-07-2023,Delivered,Ravi,WH-A
+121,Keyboard,Accessories,Lenovo,3,56621.27,0.24,8737,East,Credit Card,16-08-2023,09-12-2023,Delivered,David,WH-A
+122,Laptop,Electronics,Dell,6,3343.44,0.15,4503,West,Credit Card,06-12-2023,06-09-2023,Returned,John,WH-A
+123,Keyboard,Accessories,HP,5,8461.86,0.04,5780,North,Net Banking,19-04-2023,13-02-2023,Cancelled,Ravi,WH-B
+124,Printer,Peripherals,HP,9,27471.77,0.21,2876,South,UPI,01-10-2023,22-05-2023,Delivered,John,WH-C
+125,Laptop,Peripherals,HP,10,2205.49,0.23,3333,South,Credit Card,25-02-2023,12-02-2023,Returned,Sara,WH-D
+126,Headphones,Electronics,Dell,5,47530.15,0.02,1965,East,Credit Card,03-08-2023,18-12-2023,Shipped,Priya,WH-A
+127,Smartphone,Accessories,HP,3,30129.54,0.27,9278,West,Debit Card,13-05-2023,25-03-2023,Shipped,David,WH-C
+128,Tablet,Electronics,Logitech,3,74897.46,0.1,5391,East,Cash on Delivery,28-10-2023,03-03-2023,Returned,David,WH-D
+129,Mouse,Accessories,Dell,2,71744.69,0.07,7623,East,Credit Card,08-12-2023,24-11-2023,Delivered,Priya,WH-A
+130,Webcam,Peripherals,Logitech,4,55007.18,0.11,3486,West,Net Banking,06-08-2023,16-10-2023,Shipped,Ravi,WH-A
+131,Headphones,Accessories,Apple,10,2075.06,0.05,8032,North,Debit Card,03-09-2023,03-01-2023,Shipped,Ravi,WH-D
+132,Headphones,Accessories,Logitech,6,50202.28,0.15,7875,East,UPI,16-06-2023,02-01-2023,Delivered,Ravi,WH-C
+133,Speaker,Peripherals,Logitech,7,73110.72,0.23,4006,South,Net Banking,14-08-2023,24-04-2023,Delivered,Priya,WH-A
+134,Smartphone,Accessories,Samsung,8,72636.1,0.08,1484,North,Credit Card,08-10-2023,11-03-2023,Delivered,Ravi,WH-C
+135,Speaker,Peripherals,Samsung,6,68607.35,0.3,5214,West,Credit Card,06-12-2023,25-08-2023,Shipped,Ravi,WH-D
+136,Speaker,Accessories,Logitech,3,71433.92,0.21,2752,West,Debit Card,19-05-2023,19-06-2023,Shipped,David,WH-D
+137,Printer,Peripherals,HP,3,44316.88,0.29,3177,North,UPI,17-06-2023,16-10-2023,Returned,Anita,WH-C
+138,Tablet,Electronics,Apple,5,40589.33,0.19,7629,West,Credit Card,17-05-2023,09-03-2023,Cancelled,Priya,WH-C
+139,Printer,Accessories,Logitech,10,48920.09,0.25,1174,North,Debit Card,20-12-2023,10-08-2023,Cancelled,John,WH-A
+140,Webcam,Peripherals,Logitech,7,31461.06,0.29,9911,West,UPI,19-08-2023,24-07-2023,Delivered,John,WH-A
+141,Laptop,Accessories,Logitech,5,15677.93,0.15,6699,North,Net Banking,22-10-2023,18-01-2023,Returned,Sara,WH-B
+142,Printer,Peripherals,Samsung,10,45642.36,0.28,3795,West,Net Banking,19-06-2023,01-02-2023,Returned,David,WH-C
+143,Headphones,Accessories,HP,5,53009.43,0.13,6704,North,Cash on Delivery,26-12-2023,12-08-2023,Delivered,Priya,WH-D
+144,Laptop,Electronics,Apple,10,17982.37,0.28,4214,East,UPI,09-06-2023,10-10-2023,Shipped,David,WH-C
+145,Laptop,Accessories,Lenovo,5,6951.33,0.08,2946,North,Net Banking,02-09-2023,01-03-2023,Returned,John,WH-C
+146,Printer,Electronics,Dell,8,41581.06,0.14,1129,South,UPI,21-06-2023,11-10-2023,Cancelled,David,WH-C
+147,Mouse,Peripherals,Dell,7,197.05,0.19,9652,North,Cash on Delivery,24-06-2023,04-01-2023,Returned,Sara,WH-C
+148,Monitor,Accessories,Apple,7,79421.69,0.16,7942,West,UPI,19-08-2023,21-11-2023,Returned,Priya,WH-A
+149,Headphones,Peripherals,Logitech,3,36795.87,0.09,2638,South,Debit Card,26-09-2023,22-06-2023,Cancelled,Priya,WH-C
+150,Laptop,Accessories,Dell,10,78370.06,0.19,9579,South,Debit Card,12-08-2023,13-02-2023,Returned,Priya,WH-B
+151,Speaker,Accessories,HP,6,59656,0.02,6827,West,UPI,02-09-2023,18-03-2023,Delivered,Priya,WH-B
+152,Smartphone,Accessories,Logitech,9,3265.28,0.19,9840,South,Net Banking,04-10-2023,24-12-2023,Cancelled,Priya,WH-C
+153,Printer,Accessories,Lenovo,5,63877.94,0.16,6426,West,Net Banking,09-08-2023,02-04-2023,Returned,Priya,WH-A
+154,Monitor,Peripherals,Samsung,3,7774.99,0.1,5395,South,Debit Card,06-07-2023,02-08-2023,Delivered,David,WH-A
+155,Tablet,Electronics,Lenovo,8,71987.82,0.25,6685,West,Credit Card,01-05-2023,17-08-2023,Delivered,David,WH-D
+156,Laptop,Electronics,Dell,2,14404.82,0.25,7047,West,Net Banking,17-03-2023,01-04-2023,Cancelled,Sara,WH-C
+157,Mouse,Peripherals,Samsung,9,23505.26,0.28,7636,East,Net Banking,19-06-2023,21-01-2023,Delivered,Ravi,WH-C
+158,Mouse,Electronics,Dell,7,14183.25,0.05,8398,West,Credit Card,02-03-2023,10-12-2023,Delivered,Ravi,WH-A
+159,Keyboard,Peripherals,Lenovo,5,31978.67,0.27,4724,West,Credit Card,11-09-2023,17-12-2023,Shipped,Anita,WH-A
+160,Laptop,Peripherals,Logitech,7,33128.56,0.04,8399,North,UPI,12-08-2023,18-01-2023,Returned,John,WH-C
+161,Keyboard,Accessories,Lenovo,3,22205.99,0.16,5006,North,Debit Card,15-03-2023,14-11-2023,Delivered,David,WH-A
+162,Tablet,Electronics,Dell,10,34674.08,0.28,3512,South,Cash on Delivery,23-10-2023,19-02-2023,Shipped,David,WH-B
+163,Smartphone,Peripherals,Samsung,6,54122.62,0.18,9039,West,Credit Card,19-07-2023,28-03-2023,Shipped,David,WH-C
+164,Headphones,Accessories,HP,7,70773.36,0.08,7217,North,Net Banking,13-01-2023,18-06-2023,Returned,Ravi,WH-D
+165,Speaker,Accessories,Samsung,7,6053.56,0.15,7203,South,Net Banking,02-12-2023,03-12-2023,Cancelled,Priya,WH-B
+166,Keyboard,Electronics,Samsung,2,40803.7,0.17,9575,North,Debit Card,15-09-2023,17-01-2023,Delivered,David,WH-C
+167,Webcam,Accessories,HP,1,71173.35,0.19,4249,South,Debit Card,05-10-2023,18-09-2023,Shipped,Sara,WH-B
+168,Smartphone,Accessories,HP,10,5298.69,0.22,2574,East,Credit Card,19-02-2023,07-09-2023,Cancelled,David,WH-A
+169,Speaker,Accessories,HP,9,11983.36,0.28,9666,South,Net Banking,04-12-2023,14-04-2023,Returned,Sara,WH-C
+170,Headphones,Peripherals,Logitech,8,48141.32,0.03,7955,North,UPI,12-10-2023,10-05-2023,Delivered,Sara,WH-A
+171,Tablet,Peripherals,Logitech,4,49287,0.24,8347,South,Net Banking,21-07-2023,12-07-2023,Delivered,Anita,WH-C
+172,Monitor,Electronics,Logitech,4,5237.38,0.2,3714,North,Cash on Delivery,22-10-2023,23-05-2023,Shipped,John,WH-B
+173,Monitor,Accessories,Apple,1,16517.49,0.12,8090,West,Cash on Delivery,23-07-2023,06-08-2023,Delivered,David,WH-B
+174,Printer,Accessories,HP,8,27517.81,0.09,6501,East,Cash on Delivery,28-01-2023,14-08-2023,Cancelled,Ravi,WH-C
+175,Speaker,Accessories,Lenovo,2,73977.25,0.2,5614,East,Credit Card,07-10-2023,11-12-2023,Cancelled,Priya,WH-A
+176,Tablet,Electronics,Lenovo,4,36005.01,0.29,4526,East,UPI,10-10-2023,09-01-2023,Cancelled,Anita,WH-B
+177,Speaker,Accessories,Lenovo,3,68088.76,0,4115,West,UPI,12-06-2023,15-02-2023,Delivered,Sara,WH-D
+178,Headphones,Accessories,Samsung,1,51787.52,0.05,2410,North,Net Banking,22-05-2023,19-06-2023,Shipped,Ravi,WH-D
+179,Keyboard,Accessories,Logitech,9,68491.72,0.01,4863,West,Debit Card,22-07-2023,19-09-2023,Shipped,John,WH-B
+180,Keyboard,Accessories,Dell,9,56875.91,0.21,9041,South,Net Banking,15-11-2023,10-07-2023,Shipped,Ravi,WH-C
+181,Mouse,Accessories,HP,6,2684.24,0.02,7419,West,Net Banking,07-03-2023,18-04-2023,Returned,Ravi,WH-A
+182,Tablet,Electronics,Lenovo,4,67651.67,0.22,2077,North,UPI,21-12-2023,02-11-2023,Cancelled,Priya,WH-D
+183,Laptop,Peripherals,Logitech,1,4471.9,0.15,3615,South,UPI,18-08-2023,04-01-2023,Cancelled,David,WH-C
+184,Laptop,Peripherals,HP,2,75926.35,0.21,2638,East,Credit Card,10-11-2023,06-09-2023,Shipped,Sara,WH-C
+185,Monitor,Accessories,Dell,8,73687.73,0.07,4323,North,Net Banking,09-01-2023,16-01-2023,Shipped,Sara,WH-B
+186,Monitor,Peripherals,Dell,6,53279.03,0.22,8124,West,Cash on Delivery,24-08-2023,20-08-2023,Shipped,Anita,WH-B
+187,Printer,Electronics,HP,7,41865.11,0.19,5854,North,Net Banking,02-01-2023,08-06-2023,Shipped,Ravi,WH-C
+188,Tablet,Accessories,HP,3,76668.69,0.24,4739,South,Cash on Delivery,27-01-2023,09-10-2023,Cancelled,Anita,WH-A
+189,Tablet,Peripherals,Logitech,5,10409.45,0.26,9624,South,UPI,05-03-2023,11-06-2023,Cancelled,Anita,WH-A
+190,Tablet,Accessories,HP,7,16789.89,0.16,3243,West,Net Banking,10-05-2023,12-12-2023,Cancelled,Priya,WH-A
+191,Printer,Accessories,HP,7,17303.43,0.05,8757,West,Debit Card,26-06-2023,04-09-2023,Delivered,Anita,WH-C
+192,Headphones,Electronics,HP,2,12823.86,0.07,2813,South,Debit Card,01-05-2023,06-09-2023,Cancelled,Anita,WH-D
+193,Laptop,Accessories,Dell,2,23358.71,0.27,4928,North,Net Banking,15-03-2023,20-01-2023,Cancelled,Priya,WH-A
+194,Laptop,Electronics,HP,8,69060.94,0.2,6212,South,UPI,16-07-2023,14-07-2023,Delivered,John,WH-B
+195,Smartphone,Accessories,Apple,5,68213.14,0.05,3055,West,UPI,05-01-2023,17-01-2023,Cancelled,John,WH-C
+196,Headphones,Peripherals,Dell,2,24982.25,0.06,9927,East,Net Banking,05-09-2023,02-02-2023,Returned,Ravi,WH-B
+197,Mouse,Peripherals,Lenovo,2,11870.78,0.22,6712,East,Cash on Delivery,13-03-2023,17-03-2023,Delivered,Priya,WH-A
+198,Laptop,Electronics,Apple,7,45423.98,0.16,7596,North,UPI,15-09-2023,09-10-2023,Returned,Anita,WH-B
+199,Keyboard,Peripherals,Dell,7,22056.07,0.05,7525,West,Debit Card,01-03-2023,17-02-2023,Delivered,David,WH-B
+200,Keyboard,Electronics,Dell,7,19328.09,0.02,8761,West,UPI,02-03-2023,09-07-2023,Shipped,Sara,WH-A
+201,Keyboard,Electronics,Logitech,5,28927.15,0.08,8691,East,Credit Card,02-03-2023,07-12-2023,Delivered,Priya,WH-A
+202,Laptop,Peripherals,Logitech,7,66288.24,0.18,3941,East,UPI,16-01-2023,03-09-2023,Returned,David,WH-D
+203,Headphones,Accessories,Apple,2,51003.29,0.26,3532,North,Credit Card,09-03-2023,08-01-2023,Returned,Priya,WH-B
+204,Tablet,Electronics,Apple,2,315.28,0.09,6968,East,Debit Card,07-09-2023,11-03-2023,Delivered,Sara,WH-B
+205,Printer,Peripherals,Samsung,4,63663.5,0.24,6738,East,Net Banking,19-09-2023,19-05-2023,Returned,Sara,WH-D
+206,Speaker,Accessories,HP,3,22071.46,0.21,5445,East,UPI,23-07-2023,05-06-2023,Delivered,Sara,WH-C
+207,Smartphone,Accessories,Dell,5,14755.07,0.11,5707,West,Cash on Delivery,15-12-2023,07-08-2023,Delivered,Priya,WH-B
+208,Smartphone,Electronics,Dell,3,5795.19,0.27,7829,North,Cash on Delivery,13-06-2023,28-04-2023,Delivered,Sara,WH-C
+209,Laptop,Electronics,Samsung,3,49772.39,0.12,8399,West,UPI,06-07-2023,04-08-2023,Returned,David,WH-C
+210,Monitor,Accessories,HP,2,17887.41,0.12,5343,West,Credit Card,04-07-2023,23-02-2023,Shipped,Priya,WH-C
+211,Speaker,Peripherals,Dell,9,19267.56,0.25,3482,North,Cash on Delivery,15-07-2023,28-06-2023,Delivered,Anita,WH-C
+212,Speaker,Peripherals,Dell,9,45393.45,0.04,7736,South,Net Banking,09-08-2023,17-05-2023,Returned,John,WH-B
+213,Laptop,Electronics,Samsung,7,14817.55,0.03,7150,South,UPI,09-12-2023,23-05-2023,Shipped,Ravi,WH-B
+214,Laptop,Accessories,HP,7,78887.58,0.26,4633,East,UPI,26-03-2023,06-09-2023,Returned,Ravi,WH-A
+215,Headphones,Accessories,Samsung,5,79605.54,0.18,2943,North,Debit Card,04-10-2023,22-11-2023,Cancelled,Ravi,WH-C
+216,Speaker,Electronics,Dell,10,33014.21,0.24,2497,North,UPI,14-03-2023,24-02-2023,Returned,Anita,WH-D
+217,Smartphone,Accessories,Samsung,2,20453.25,0.03,2643,East,Cash on Delivery,18-12-2023,23-05-2023,Delivered,John,WH-C
+218,Keyboard,Peripherals,Lenovo,8,72796.23,0.08,7198,West,Cash on Delivery,27-03-2023,22-07-2023,Cancelled,Anita,WH-C
+219,Smartphone,Electronics,Lenovo,5,72858.3,0.12,2032,West,Credit Card,09-05-2023,12-05-2023,Shipped,Anita,WH-D
+220,Monitor,Accessories,Logitech,5,55222.25,0.1,6154,South,Credit Card,11-06-2023,16-12-2023,Shipped,Ravi,WH-C
+221,Speaker,Peripherals,Dell,3,68490.72,0.08,1975,West,Cash on Delivery,12-10-2023,13-09-2023,Delivered,Anita,WH-D
+222,Smartphone,Accessories,Samsung,4,26083.8,0.09,7715,North,Debit Card,13-06-2023,11-04-2023,Cancelled,Ravi,WH-C
+223,Webcam,Electronics,Apple,9,5895.43,0.3,9102,West,Debit Card,18-05-2023,22-08-2023,Cancelled,Priya,WH-D
+224,Keyboard,Peripherals,HP,3,60115.48,0.1,1073,South,UPI,15-03-2023,08-06-2023,Cancelled,Sara,WH-D
+225,Webcam,Peripherals,Samsung,9,24630.04,0.28,4747,West,Cash on Delivery,19-02-2023,07-10-2023,Shipped,Sara,WH-A
+226,Mouse,Accessories,Lenovo,3,52071.58,0.29,7291,East,UPI,19-09-2023,28-09-2023,Delivered,David,WH-C
+227,Keyboard,Accessories,Apple,5,27658.04,0.11,8883,West,Credit Card,08-08-2023,15-08-2023,Delivered,Sara,WH-C
+228,Tablet,Accessories,HP,7,37629.96,0.23,5183,West,Debit Card,02-01-2023,14-03-2023,Returned,Anita,WH-B
+229,Webcam,Electronics,Samsung,7,46526.66,0.07,5942,North,Net Banking,28-12-2023,07-03-2023,Delivered,Sara,WH-A
+230,Printer,Electronics,Logitech,2,61942.1,0.11,2470,South,UPI,04-05-2023,23-10-2023,Delivered,John,WH-C
+231,Monitor,Peripherals,Apple,1,63280.39,0.19,8671,East,Debit Card,27-09-2023,26-11-2023,Returned,John,WH-B
+232,Speaker,Accessories,HP,7,58677.93,0.02,7544,West,Credit Card,05-02-2023,14-12-2023,Returned,Anita,WH-D
+233,Printer,Accessories,Dell,1,56574.11,0.21,8683,South,Debit Card,23-02-2023,14-03-2023,Cancelled,Anita,WH-D
+234,Laptop,Peripherals,HP,9,12199.38,0.18,5246,West,Cash on Delivery,20-10-2023,01-09-2023,Delivered,David,WH-C
+235,Keyboard,Electronics,Lenovo,9,66620.61,0.1,6153,North,Debit Card,19-04-2023,18-02-2023,Delivered,Priya,WH-B
+236,Keyboard,Electronics,Apple,1,41042.98,0.12,7088,East,Cash on Delivery,21-03-2023,15-04-2023,Cancelled,John,WH-B
+237,Headphones,Peripherals,Samsung,5,26583.61,0.28,8511,South,Net Banking,20-07-2023,12-11-2023,Returned,John,WH-C
+238,Printer,Peripherals,Samsung,5,21806.8,0.03,1030,South,Net Banking,21-02-2023,14-01-2023,Delivered,John,WH-C
+239,Mouse,Peripherals,Samsung,1,8225.99,0.28,7450,South,Debit Card,06-12-2023,22-08-2023,Returned,Ravi,WH-C
+240,Smartphone,Electronics,Logitech,2,46498.14,0.05,5732,North,UPI,05-04-2023,04-04-2023,Returned,Ravi,WH-A
+241,Monitor,Electronics,Logitech,1,23900.72,0.09,2330,South,Credit Card,05-10-2023,06-06-2023,Cancelled,Ravi,WH-B
+242,Printer,Peripherals,Apple,2,68698.32,0.16,2985,East,UPI,18-10-2023,06-12-2023,Returned,John,WH-C
+243,Speaker,Accessories,Lenovo,5,4399.44,0.28,7365,East,Net Banking,22-02-2023,15-08-2023,Cancelled,Sara,WH-A
+244,Headphones,Accessories,Samsung,10,16202.82,0.11,1612,West,UPI,09-05-2023,17-08-2023,Shipped,Anita,WH-A
+245,Smartphone,Peripherals,Apple,4,65547.11,0.03,4496,South,Debit Card,17-01-2023,04-08-2023,Returned,John,WH-B
+246,Mouse,Accessories,Lenovo,5,70260.29,0.18,2580,East,Net Banking,10-12-2023,10-07-2023,Delivered,Sara,WH-A
+247,Tablet,Electronics,Lenovo,2,43512.35,0.28,3276,South,Net Banking,22-07-2023,27-06-2023,Delivered,Anita,WH-B
+248,Mouse,Electronics,Logitech,9,38795.33,0.23,8864,South,Cash on Delivery,02-01-2023,18-02-2023,Shipped,Anita,WH-A
+249,Mouse,Accessories,Logitech,4,57781.89,0.27,2489,West,Cash on Delivery,07-10-2023,08-07-2023,Cancelled,Priya,WH-B
+250,Mouse,Peripherals,HP,9,54423.18,0.12,5308,North,Credit Card,26-05-2023,25-08-2023,Shipped,Sara,WH-B
+251,Speaker,Peripherals,HP,4,49653.38,0.02,1406,North,Net Banking,20-07-2023,22-07-2023,Shipped,Sara,WH-C
+252,Printer,Electronics,Samsung,2,33095.47,0.16,7103,East,Debit Card,23-11-2023,25-02-2023,Shipped,Priya,WH-D
+253,Laptop,Accessories,Dell,3,27342.47,0.05,2719,West,Credit Card,27-04-2023,09-08-2023,Cancelled,Ravi,WH-D
+254,Speaker,Accessories,Samsung,10,65576.39,0.16,8301,North,Credit Card,18-05-2023,25-04-2023,Returned,John,WH-A
+255,Printer,Electronics,Dell,6,73224.71,0.25,5223,South,Cash on Delivery,05-06-2023,12-06-2023,Cancelled,Ravi,WH-D
+256,Tablet,Electronics,Logitech,10,66749.47,0.23,7023,South,UPI,27-11-2023,16-07-2023,Shipped,Priya,WH-D
+257,Laptop,Peripherals,Dell,4,15966.65,0.04,8745,East,Net Banking,13-10-2023,28-09-2023,Cancelled,Anita,WH-C
+258,Webcam,Peripherals,Lenovo,7,52698.25,0.24,8841,South,Net Banking,12-10-2023,01-11-2023,Shipped,Ravi,WH-B
+259,Headphones,Peripherals,Lenovo,8,13867.34,0.06,6864,East,Debit Card,10-05-2023,16-04-2023,Returned,Priya,WH-C
+260,Printer,Electronics,HP,7,71882.31,0.18,1782,North,UPI,04-08-2023,21-06-2023,Shipped,Sara,WH-A
+261,Mouse,Electronics,Lenovo,3,45632.06,0.18,5027,West,Cash on Delivery,26-12-2023,18-11-2023,Delivered,David,WH-B
+262,Keyboard,Peripherals,Apple,3,27839,0.06,4018,North,Debit Card,15-01-2023,26-06-2023,Cancelled,Ravi,WH-B
+263,Tablet,Electronics,Samsung,1,76272.48,0.07,5903,North,UPI,18-02-2023,01-01-2023,Shipped,Sara,WH-D
+264,Printer,Accessories,Logitech,6,3329.16,0.08,4409,West,UPI,28-09-2023,25-10-2023,Returned,Priya,WH-B
+265,Laptop,Peripherals,Lenovo,6,53041.85,0.21,9769,North,Credit Card,13-02-2023,02-08-2023,Cancelled,Sara,WH-B
+266,Laptop,Electronics,Dell,7,1303.37,0.05,4289,North,Credit Card,10-09-2023,13-12-2023,Returned,Anita,WH-C
+267,Laptop,Electronics,Lenovo,2,78462.62,0.04,7142,East,Cash on Delivery,14-02-2023,06-12-2023,Delivered,David,WH-C
+268,Webcam,Peripherals,Dell,9,69606.56,0.1,9744,East,UPI,07-08-2023,07-04-2023,Cancelled,Ravi,WH-C
+269,Mouse,Electronics,Logitech,6,57452.01,0.07,9779,East,Cash on Delivery,01-12-2023,12-02-2023,Returned,Sara,WH-C
+270,Laptop,Electronics,HP,6,7632.75,0.04,6904,West,Cash on Delivery,08-12-2023,05-10-2023,Shipped,Priya,WH-A
+271,Headphones,Peripherals,Apple,4,49663.58,0.08,1653,West,Credit Card,12-12-2023,09-12-2023,Returned,Priya,WH-A
+272,Headphones,Accessories,Samsung,10,31774.74,0.16,6671,West,Credit Card,19-03-2023,08-04-2023,Shipped,John,WH-B
+273,Keyboard,Electronics,Dell,5,77189.01,0.3,2264,East,Credit Card,26-04-2023,28-11-2023,Delivered,Ravi,WH-C
+274,Headphones,Peripherals,Samsung,10,77045.48,0.18,4893,West,Debit Card,06-04-2023,10-08-2023,Returned,John,WH-A
+275,Speaker,Electronics,Samsung,2,28330.81,0.16,3958,West,Net Banking,15-08-2023,04-06-2023,Shipped,Priya,WH-D
+276,Tablet,Peripherals,Samsung,7,73574.34,0.18,6530,North,Credit Card,26-10-2023,04-11-2023,Returned,Sara,WH-D
+277,Smartphone,Peripherals,Lenovo,6,14613.68,0.16,3461,North,Credit Card,11-05-2023,18-11-2023,Delivered,Priya,WH-B
+278,Mouse,Electronics,HP,10,21156.08,0.08,1968,South,Cash on Delivery,27-08-2023,03-03-2023,Delivered,Priya,WH-B
+279,Webcam,Accessories,HP,5,72495.17,0.23,8208,West,Cash on Delivery,18-02-2023,08-07-2023,Delivered,David,WH-D
+280,Printer,Electronics,Logitech,8,57007.86,0.08,5151,South,UPI,05-05-2023,18-02-2023,Returned,Anita,WH-A
+281,Webcam,Accessories,Dell,5,33816.97,0.25,6844,North,Cash on Delivery,24-12-2023,26-07-2023,Shipped,Sara,WH-D
+282,Keyboard,Electronics,HP,5,2467.2,0.27,1280,North,UPI,21-08-2023,21-09-2023,Delivered,Ravi,WH-B
+283,Speaker,Peripherals,Lenovo,6,25932.35,0.19,2728,West,Cash on Delivery,24-11-2023,18-03-2023,Cancelled,Anita,WH-C
+284,Keyboard,Accessories,Dell,6,43995.45,0.29,1240,North,Cash on Delivery,13-12-2023,21-08-2023,Delivered,David,WH-C
+285,Mouse,Accessories,Logitech,7,63958.9,0.02,1865,North,Credit Card,04-10-2023,09-04-2023,Shipped,Priya,WH-C
+286,Speaker,Peripherals,Lenovo,2,14335.11,0.22,6308,West,Credit Card,06-10-2023,12-01-2023,Delivered,David,WH-D
+287,Printer,Peripherals,Samsung,4,35494.09,0.14,1207,South,Credit Card,12-05-2023,07-10-2023,Cancelled,Ravi,WH-A
+288,Keyboard,Peripherals,Dell,9,65803.56,0.04,3703,North,Credit Card,05-07-2023,11-01-2023,Returned,Ravi,WH-C
+289,Mouse,Accessories,Apple,10,47181.24,0.01,9491,North,UPI,10-11-2023,04-03-2023,Returned,Sara,WH-B
+290,Speaker,Accessories,HP,4,57868.02,0.14,2340,North,Net Banking,20-07-2023,14-02-2023,Delivered,Ravi,WH-C
+291,Monitor,Electronics,Dell,7,37329.18,0.29,5514,West,Net Banking,10-11-2023,16-03-2023,Cancelled,David,WH-D
+292,Speaker,Accessories,Samsung,2,4909.16,0.29,1637,West,Debit Card,13-02-2023,01-03-2023,Cancelled,Anita,WH-D
+293,Keyboard,Electronics,Dell,2,44776.61,0.1,4804,North,UPI,04-06-2023,07-02-2023,Cancelled,Priya,WH-B
+294,Keyboard,Peripherals,Dell,9,45826.95,0.25,4568,North,Debit Card,08-01-2023,25-11-2023,Shipped,John,WH-B
+295,Speaker,Peripherals,Apple,10,43168.48,0.1,8401,East,UPI,07-06-2023,18-04-2023,Shipped,Priya,WH-A
+296,Monitor,Peripherals,Lenovo,8,54478.62,0.13,4715,South,Net Banking,20-10-2023,27-10-2023,Returned,Sara,WH-D
+297,Tablet,Peripherals,Dell,4,16677.35,0.26,6867,South,UPI,18-11-2023,10-08-2023,Returned,Sara,WH-A
+298,Webcam,Accessories,HP,5,15424.57,0.26,2048,South,Debit Card,17-02-2023,24-01-2023,Delivered,Sara,WH-A
+299,Tablet,Electronics,Dell,5,28719.87,0.27,8519,East,Net Banking,24-05-2023,10-09-2023,Returned,Priya,WH-C
+300,Webcam,Electronics,Logitech,9,72389.62,0.13,3709,East,Cash on Delivery,12-02-2023,19-10-2023,Returned,Ravi,WH-B
+301,Headphones,Accessories,Dell,8,34825.99,0.09,6337,East,Net Banking,14-03-2023,03-02-2023,Shipped,Priya,WH-D
+302,Smartphone,Peripherals,Samsung,9,16287.08,0.05,2027,East,Net Banking,03-12-2023,03-06-2023,Cancelled,Ravi,WH-A
+303,Laptop,Accessories,Logitech,3,74951.29,0.01,8285,South,Credit Card,24-05-2023,01-07-2023,Returned,Priya,WH-B
+304,Monitor,Electronics,Apple,7,79230.7,0.15,2634,South,Net Banking,15-08-2023,16-05-2023,Shipped,John,WH-D
+305,Monitor,Accessories,Dell,6,79735.22,0.02,6341,North,Credit Card,14-03-2023,21-11-2023,Delivered,Sara,WH-D
+306,Smartphone,Peripherals,Dell,9,56609.91,0,2854,North,Credit Card,11-01-2023,05-10-2023,Returned,Priya,WH-D
+307,Webcam,Peripherals,Apple,2,58161.85,0.06,6354,West,Cash on Delivery,09-06-2023,01-01-2023,Cancelled,David,WH-D
+308,Monitor,Accessories,Samsung,7,7386.62,0.15,6638,West,Net Banking,24-02-2023,17-04-2023,Cancelled,David,WH-C
+309,Speaker,Peripherals,Samsung,10,20710.33,0.15,2209,West,Debit Card,06-03-2023,28-12-2023,Returned,David,WH-B
+310,Tablet,Accessories,Dell,7,38012.18,0.11,6146,North,Cash on Delivery,16-06-2023,15-12-2023,Returned,John,WH-B
+311,Printer,Peripherals,Dell,8,18005.79,0.02,5431,East,Debit Card,15-08-2023,28-05-2023,Returned,John,WH-C
+312,Webcam,Accessories,Dell,8,9033.09,0.03,4560,West,UPI,04-10-2023,26-07-2023,Returned,Sara,WH-C
+313,Keyboard,Accessories,Apple,2,32531.73,0.24,8890,North,UPI,13-11-2023,14-09-2023,Delivered,Sara,WH-D
+314,Speaker,Electronics,Lenovo,5,3903.38,0.14,7582,East,Net Banking,01-08-2023,10-08-2023,Returned,Anita,WH-A
+315,Mouse,Electronics,Apple,6,75809.66,0.15,3081,North,Cash on Delivery,18-03-2023,22-04-2023,Delivered,Ravi,WH-D
+316,Headphones,Accessories,Samsung,9,30649.06,0.14,5790,South,Cash on Delivery,13-10-2023,18-09-2023,Returned,Ravi,WH-D
+317,Headphones,Peripherals,HP,6,13880.52,0.28,5856,East,UPI,19-02-2023,01-10-2023,Delivered,David,WH-A
+318,Tablet,Peripherals,Samsung,1,12298.9,0.02,7366,North,Debit Card,04-03-2023,28-04-2023,Cancelled,Ravi,WH-D
+319,Webcam,Peripherals,Dell,5,56601.18,0.19,9863,North,UPI,19-06-2023,26-05-2023,Delivered,David,WH-C
+320,Laptop,Peripherals,HP,8,41410.04,0.03,8959,North,Cash on Delivery,19-12-2023,02-08-2023,Returned,Ravi,WH-B
+321,Webcam,Peripherals,HP,9,10278.78,0.12,4271,West,Credit Card,13-01-2023,08-01-2023,Delivered,John,WH-B
+322,Mouse,Peripherals,Apple,9,70124.96,0.03,8637,South,Cash on Delivery,25-10-2023,05-02-2023,Cancelled,Ravi,WH-A
+323,Mouse,Accessories,Samsung,10,62370.09,0.24,9079,South,Net Banking,21-01-2023,28-11-2023,Delivered,Ravi,WH-D
+324,Tablet,Electronics,HP,10,34138.99,0.29,9156,South,UPI,24-03-2023,17-02-2023,Delivered,Priya,WH-B
+325,Headphones,Electronics,Lenovo,6,25040.87,0.09,4275,South,Cash on Delivery,13-03-2023,12-05-2023,Shipped,Sara,WH-D
+326,Speaker,Electronics,Dell,7,53784.73,0.23,3281,West,UPI,22-04-2023,16-07-2023,Returned,Ravi,WH-D
+327,Headphones,Electronics,Lenovo,5,47930.93,0.07,3095,North,Debit Card,10-10-2023,21-02-2023,Returned,David,WH-C
+328,Smartphone,Accessories,Dell,7,55964.09,0.01,2515,South,Credit Card,16-01-2023,07-06-2023,Delivered,Sara,WH-D
+329,Tablet,Peripherals,Lenovo,6,74431.75,0.01,6571,South,Net Banking,13-07-2023,18-04-2023,Shipped,Priya,WH-B
+330,Speaker,Accessories,Samsung,8,23029.62,0.14,3016,East,Credit Card,17-12-2023,09-02-2023,Returned,Sara,WH-A
+331,Headphones,Peripherals,Logitech,3,12531.8,0.21,1749,South,Credit Card,19-10-2023,28-06-2023,Delivered,Ravi,WH-D
+332,Mouse,Electronics,Lenovo,6,60973.96,0.06,7403,South,Cash on Delivery,28-02-2023,21-12-2023,Shipped,Priya,WH-A
+333,Speaker,Electronics,Lenovo,9,52408.59,0.26,7107,West,Credit Card,20-07-2023,01-08-2023,Shipped,Ravi,WH-A
+334,Monitor,Electronics,Lenovo,8,9368.48,0.27,2973,East,Credit Card,27-02-2023,18-11-2023,Shipped,David,WH-A
+335,Tablet,Peripherals,Samsung,2,37643.61,0.06,7086,South,Cash on Delivery,25-08-2023,21-12-2023,Returned,Priya,WH-B
+336,Tablet,Peripherals,HP,5,37038.69,0.18,2457,West,Credit Card,18-08-2023,15-10-2023,Delivered,Priya,WH-A
+337,Keyboard,Accessories,Logitech,9,70116.57,0.11,5532,East,Debit Card,17-06-2023,25-06-2023,Returned,Anita,WH-B
+338,Webcam,Electronics,Dell,8,63091.06,0.09,2804,South,Debit Card,27-12-2023,21-06-2023,Returned,David,WH-D
+339,Mouse,Peripherals,Samsung,5,78175.76,0.29,8327,East,Credit Card,20-01-2023,19-01-2023,Delivered,Anita,WH-D
+340,Speaker,Electronics,HP,5,50408.42,0.06,2884,East,Net Banking,10-12-2023,21-11-2023,Returned,Anita,WH-D
+341,Monitor,Accessories,Logitech,6,17278.57,0.11,7789,North,Credit Card,08-11-2023,05-01-2023,Shipped,Priya,WH-A
+342,Laptop,Accessories,Logitech,1,18774.46,0.01,8311,East,Debit Card,09-07-2023,15-09-2023,Shipped,Anita,WH-C
+343,Headphones,Electronics,Apple,5,13721.25,0.13,1308,North,Debit Card,25-03-2023,15-09-2023,Cancelled,Ravi,WH-C
+344,Headphones,Electronics,Dell,5,69633.8,0.15,7206,South,Net Banking,24-02-2023,17-10-2023,Returned,Anita,WH-B
+345,Speaker,Accessories,Dell,1,66972.55,0.15,2806,East,Credit Card,25-08-2023,09-06-2023,Delivered,Priya,WH-A
+346,Mouse,Electronics,Samsung,3,870.54,0.22,1820,South,Credit Card,06-02-2023,25-08-2023,Delivered,Ravi,WH-D
+347,Speaker,Peripherals,Apple,8,50036.66,0.16,7052,West,UPI,05-03-2023,25-03-2023,Shipped,Sara,WH-D
+348,Smartphone,Peripherals,Logitech,6,15586.61,0.17,3633,South,Net Banking,26-06-2023,26-04-2023,Delivered,Priya,WH-B
+349,Printer,Accessories,Logitech,3,33380.5,0.23,1634,West,UPI,16-01-2023,21-04-2023,Delivered,Priya,WH-B
+350,Tablet,Electronics,Dell,5,16023.42,0.06,7706,East,Credit Card,26-05-2023,14-11-2023,Shipped,John,WH-A
+351,Webcam,Peripherals,Apple,7,40892.73,0.04,9559,South,Net Banking,14-05-2023,04-09-2023,Shipped,David,WH-B
+352,Webcam,Accessories,Dell,7,41407.43,0.28,7863,East,Debit Card,02-10-2023,02-04-2023,Delivered,David,WH-A
+353,Tablet,Peripherals,Apple,8,19351.66,0.12,7778,North,Credit Card,27-05-2023,14-04-2023,Returned,David,WH-B
+354,Webcam,Electronics,Logitech,7,16358,0.02,3942,North,Credit Card,06-09-2023,03-12-2023,Cancelled,David,WH-C
+355,Smartphone,Peripherals,Logitech,3,72982.13,0.23,3884,South,Credit Card,23-08-2023,17-04-2023,Delivered,John,WH-A
+356,Laptop,Electronics,Logitech,6,59948.86,0.14,4926,East,Credit Card,01-04-2023,08-09-2023,Shipped,Ravi,WH-D
+357,Monitor,Peripherals,Dell,10,75341.4,0.12,5057,East,Cash on Delivery,11-04-2023,15-08-2023,Delivered,Ravi,WH-C
+358,Smartphone,Accessories,Dell,2,70170.98,0.28,8637,East,Debit Card,17-03-2023,25-01-2023,Cancelled,John,WH-C
+359,Laptop,Accessories,Apple,9,62009.49,0.15,2238,East,Cash on Delivery,10-10-2023,24-05-2023,Cancelled,John,WH-A
+360,Speaker,Accessories,Dell,4,61995.75,0.27,3599,East,UPI,14-05-2023,27-12-2023,Returned,Ravi,WH-C
+361,Smartphone,Electronics,Logitech,4,41264.49,0.11,1587,East,Cash on Delivery,09-02-2023,08-07-2023,Delivered,Ravi,WH-C
+362,Laptop,Accessories,Lenovo,2,34822.33,0.22,8919,South,UPI,18-02-2023,03-03-2023,Shipped,John,WH-B
+363,Keyboard,Accessories,HP,8,61826.72,0.2,8967,East,UPI,19-03-2023,08-05-2023,Shipped,John,WH-B
+364,Laptop,Accessories,HP,3,61043.82,0.14,9853,West,Debit Card,15-12-2023,05-08-2023,Delivered,Priya,WH-D
+365,Mouse,Electronics,Logitech,8,28495.96,0.17,5004,West,Net Banking,12-06-2023,02-04-2023,Cancelled,David,WH-C
+366,Laptop,Electronics,Lenovo,3,77471.55,0.14,6481,East,Cash on Delivery,24-04-2023,26-02-2023,Delivered,Priya,WH-A
+367,Tablet,Electronics,Logitech,7,30395.54,0.18,9650,South,Net Banking,11-01-2023,12-07-2023,Cancelled,Sara,WH-C
+368,Monitor,Peripherals,Lenovo,6,6293.73,0.25,6516,South,Cash on Delivery,21-04-2023,18-12-2023,Cancelled,David,WH-A
+369,Webcam,Electronics,HP,7,49358.16,0.03,3244,North,Cash on Delivery,04-09-2023,04-06-2023,Returned,David,WH-D
+370,Headphones,Peripherals,Samsung,4,62414.12,0.07,1287,South,Net Banking,02-10-2023,09-01-2023,Shipped,David,WH-C
+371,Printer,Accessories,HP,9,33362.62,0.28,9809,South,UPI,22-12-2023,28-03-2023,Shipped,Anita,WH-A
+372,Monitor,Electronics,Logitech,2,39913.92,0.14,2096,North,Net Banking,05-02-2023,20-04-2023,Cancelled,Sara,WH-C
+373,Mouse,Electronics,Logitech,9,65491.18,0.15,1228,East,Debit Card,22-08-2023,06-07-2023,Delivered,Priya,WH-D
+374,Smartphone,Accessories,Dell,4,70481.92,0.29,3355,South,Cash on Delivery,04-09-2023,11-05-2023,Returned,Sara,WH-C
+375,Smartphone,Electronics,Logitech,8,21828.91,0.21,6215,South,Net Banking,25-08-2023,23-07-2023,Shipped,John,WH-C
+376,Monitor,Electronics,Lenovo,9,53362.76,0.22,5840,South,Debit Card,05-04-2023,28-04-2023,Returned,Ravi,WH-B
+377,Tablet,Accessories,Dell,4,50470.23,0.02,3728,West,Cash on Delivery,11-03-2023,19-09-2023,Delivered,Ravi,WH-C
+378,Printer,Accessories,Apple,10,49532.69,0.15,9187,North,UPI,08-10-2023,08-07-2023,Delivered,Ravi,WH-D
+379,Mouse,Peripherals,Apple,4,22718.22,0.07,4506,West,Cash on Delivery,12-09-2023,08-11-2023,Delivered,John,WH-A
+380,Monitor,Peripherals,Apple,4,19443.37,0.13,9681,East,UPI,18-06-2023,09-11-2023,Cancelled,Priya,WH-C
+381,Keyboard,Electronics,HP,5,67596.38,0.03,7181,North,Net Banking,20-06-2023,07-04-2023,Returned,Anita,WH-A
+382,Mouse,Peripherals,Samsung,2,12408.31,0.04,6453,North,Net Banking,03-02-2023,16-03-2023,Shipped,David,WH-C
+383,Tablet,Accessories,HP,4,1465.44,0.13,9766,South,Debit Card,05-05-2023,24-06-2023,Returned,David,WH-B
+384,Smartphone,Electronics,Logitech,5,8867.55,0.24,5470,South,Debit Card,01-12-2023,24-09-2023,Delivered,John,WH-C
+385,Speaker,Peripherals,HP,4,46935.8,0.22,9914,South,Net Banking,05-11-2023,22-07-2023,Cancelled,Priya,WH-B
+386,Monitor,Accessories,Dell,10,27449.33,0.2,2376,North,UPI,24-04-2023,14-06-2023,Cancelled,Sara,WH-D
+387,Mouse,Peripherals,Apple,1,17380.17,0.18,8115,South,Credit Card,12-01-2023,01-12-2023,Delivered,Priya,WH-B
+388,Webcam,Electronics,Apple,4,3639.84,0.08,4571,East,Net Banking,08-01-2023,28-03-2023,Cancelled,Sara,WH-C
+389,Laptop,Peripherals,Apple,10,25842.98,0.29,4411,East,Credit Card,17-11-2023,05-10-2023,Shipped,Anita,WH-D
+390,Keyboard,Electronics,Apple,5,28582.79,0.1,6958,East,Debit Card,14-11-2023,15-10-2023,Cancelled,Priya,WH-A
+391,Speaker,Peripherals,Samsung,9,61838.01,0.23,3332,South,Debit Card,04-07-2023,06-01-2023,Delivered,Priya,WH-B
+392,Webcam,Electronics,HP,3,46999.95,0.22,4334,West,Cash on Delivery,17-08-2023,19-03-2023,Cancelled,Priya,WH-C
+393,Keyboard,Peripherals,Samsung,8,39353.76,0.11,1244,North,Cash on Delivery,08-08-2023,06-05-2023,Returned,David,WH-D
+394,Printer,Peripherals,Logitech,9,76613.69,0.05,7350,North,Cash on Delivery,08-11-2023,17-11-2023,Delivered,David,WH-C
+395,Keyboard,Electronics,Dell,7,45084.86,0.2,3650,South,UPI,26-11-2023,24-03-2023,Cancelled,Anita,WH-A
+396,Laptop,Accessories,Logitech,6,7792.09,0.18,3268,North,Debit Card,17-03-2023,03-03-2023,Delivered,Priya,WH-A
+397,Webcam,Peripherals,Lenovo,7,72515.34,0.23,9641,East,UPI,21-04-2023,28-04-2023,Returned,John,WH-D
+398,Laptop,Accessories,Apple,5,327.16,0.29,4502,East,Net Banking,08-03-2023,11-05-2023,Shipped,John,WH-A
+399,Laptop,Peripherals,HP,1,1659.59,0.21,9937,East,Debit Card,12-02-2023,14-03-2023,Returned,Ravi,WH-D
+400,Tablet,Peripherals,Samsung,3,28373.08,0.07,7253,North,Net Banking,19-10-2023,13-09-2023,Cancelled,Sara,WH-A
+401,Tablet,Peripherals,Apple,5,4767.17,0.26,9838,East,Credit Card,02-09-2023,13-08-2023,Cancelled,Priya,WH-C
+402,Laptop,Electronics,HP,7,62190.76,0.05,1425,East,Debit Card,27-01-2023,13-08-2023,Returned,David,WH-B
+403,Laptop,Peripherals,HP,3,44298.43,0.17,5756,East,Cash on Delivery,20-05-2023,11-06-2023,Delivered,John,WH-B
+404,Smartphone,Electronics,Dell,10,79790.15,0.09,4655,West,Cash on Delivery,06-08-2023,04-01-2023,Returned,David,WH-B
+405,Speaker,Peripherals,Samsung,10,6009.39,0.16,3438,South,Debit Card,06-07-2023,16-04-2023,Cancelled,Ravi,WH-C
+406,Monitor,Peripherals,Samsung,4,12242.37,0.28,6660,West,Credit Card,27-10-2023,10-09-2023,Shipped,Priya,WH-A
+407,Monitor,Peripherals,Dell,1,38156.9,0.09,2717,North,Cash on Delivery,12-11-2023,01-10-2023,Shipped,Anita,WH-D
+408,Tablet,Electronics,Dell,5,7588.04,0.08,7847,West,Net Banking,22-03-2023,27-02-2023,Delivered,Priya,WH-B
+409,Speaker,Peripherals,Samsung,6,2763.53,0.16,9089,West,Net Banking,02-11-2023,18-03-2023,Delivered,Priya,WH-D
+410,Smartphone,Electronics,Logitech,7,21170.2,0.21,2932,West,Cash on Delivery,02-06-2023,25-08-2023,Returned,Anita,WH-C
+411,Speaker,Accessories,Logitech,2,69056.91,0.07,8868,North,Net Banking,28-01-2023,19-10-2023,Cancelled,Anita,WH-A
+412,Monitor,Accessories,HP,4,10675.44,0.06,8069,East,Net Banking,28-06-2023,11-06-2023,Returned,David,WH-A
+413,Keyboard,Peripherals,Samsung,9,72503.3,0.28,8214,East,Credit Card,02-10-2023,03-12-2023,Delivered,David,WH-C
+414,Webcam,Peripherals,Logitech,1,50363.6,0.04,2733,North,Debit Card,23-01-2023,11-12-2023,Delivered,Ravi,WH-C
+415,Webcam,Electronics,Logitech,8,37242.51,0.28,8931,East,UPI,17-11-2023,03-03-2023,Shipped,David,WH-B
+416,Mouse,Peripherals,Logitech,3,61278.29,0.17,8056,North,Net Banking,24-01-2023,20-03-2023,Cancelled,John,WH-A
+417,Webcam,Electronics,Apple,7,10306.85,0.2,7163,South,Cash on Delivery,05-11-2023,07-08-2023,Cancelled,Priya,WH-D
+418,Speaker,Peripherals,Logitech,5,51608.08,0.18,6141,North,Cash on Delivery,20-03-2023,15-12-2023,Shipped,Ravi,WH-B
+419,Laptop,Peripherals,Dell,8,24565.52,0.2,1319,North,Debit Card,03-12-2023,09-02-2023,Returned,Sara,WH-D
+420,Tablet,Peripherals,Dell,7,47963.47,0.13,8970,South,Net Banking,14-06-2023,26-11-2023,Cancelled,John,WH-C
+421,Monitor,Peripherals,Apple,10,48693.1,0.06,5028,North,UPI,23-10-2023,06-12-2023,Returned,Ravi,WH-D
+422,Monitor,Electronics,Samsung,9,61713.48,0.17,7749,North,UPI,09-08-2023,03-06-2023,Shipped,Ravi,WH-D
+423,Smartphone,Peripherals,Lenovo,4,12140.95,0.25,4701,West,Credit Card,25-05-2023,26-06-2023,Cancelled,Priya,WH-B
+424,Tablet,Accessories,Lenovo,7,24447.68,0.15,7978,South,Credit Card,11-03-2023,12-11-2023,Cancelled,Ravi,WH-B
+425,Smartphone,Electronics,Lenovo,5,42942.91,0.1,6829,East,Debit Card,19-06-2023,16-03-2023,Returned,Anita,WH-A
+426,Webcam,Peripherals,Samsung,3,22949.87,0.17,1657,North,Cash on Delivery,18-10-2023,07-04-2023,Shipped,David,WH-D
+427,Keyboard,Accessories,Apple,3,66257.37,0.19,9973,North,Cash on Delivery,22-11-2023,07-12-2023,Shipped,Priya,WH-A
+428,Headphones,Peripherals,Samsung,3,29559.98,0.08,4966,West,Net Banking,24-06-2023,24-01-2023,Cancelled,Priya,WH-D
+429,Keyboard,Peripherals,Lenovo,4,59140.62,0.24,3199,West,Credit Card,06-01-2023,02-05-2023,Returned,Anita,WH-D
+430,Speaker,Peripherals,Samsung,6,11486.47,0.12,6479,West,Debit Card,10-08-2023,02-10-2023,Returned,John,WH-D
+431,Speaker,Peripherals,Dell,1,48706.33,0.25,9004,South,Debit Card,05-08-2023,03-09-2023,Cancelled,David,WH-C
+432,Webcam,Peripherals,Apple,8,13691.88,0.09,9136,East,Credit Card,04-08-2023,04-06-2023,Delivered,Sara,WH-A
+433,Speaker,Electronics,HP,2,2372.76,0.21,7351,West,Debit Card,25-06-2023,07-05-2023,Returned,David,WH-B
+434,Tablet,Peripherals,Apple,4,54381.14,0,2890,South,Cash on Delivery,27-08-2023,19-08-2023,Cancelled,Priya,WH-C
+435,Speaker,Electronics,HP,2,29398.61,0.19,3716,West,Credit Card,22-03-2023,20-01-2023,Shipped,Ravi,WH-D
+436,Monitor,Electronics,Apple,7,31535.06,0.26,8340,West,UPI,10-07-2023,25-01-2023,Cancelled,David,WH-C
+437,Speaker,Peripherals,Dell,2,67587.08,0.25,5031,East,Debit Card,05-06-2023,22-06-2023,Cancelled,Anita,WH-D
+438,Headphones,Accessories,HP,4,28961.84,0.24,6800,North,UPI,22-08-2023,11-12-2023,Returned,Sara,WH-C
+439,Speaker,Electronics,Samsung,5,33742.01,0.04,2509,West,Cash on Delivery,18-10-2023,27-03-2023,Delivered,Sara,WH-A
+440,Monitor,Accessories,HP,9,40396.8,0.25,7061,South,UPI,11-12-2023,11-02-2023,Returned,Priya,WH-A
+441,Laptop,Peripherals,Apple,2,18743.38,0.22,4836,South,Cash on Delivery,03-01-2023,14-06-2023,Delivered,Ravi,WH-B
+442,Printer,Accessories,Lenovo,10,8595.33,0.03,7359,South,Credit Card,09-06-2023,19-01-2023,Cancelled,John,WH-C
+443,Mouse,Electronics,Lenovo,8,38860.25,0.12,9342,North,Credit Card,25-09-2023,05-08-2023,Cancelled,David,WH-C
+444,Speaker,Electronics,Samsung,5,5530.38,0.29,8749,West,Net Banking,11-07-2023,17-09-2023,Delivered,Ravi,WH-D
+445,Mouse,Electronics,Logitech,1,11557.65,0.21,3683,North,Cash on Delivery,08-07-2023,13-09-2023,Cancelled,Ravi,WH-D
+446,Speaker,Electronics,HP,6,1494.69,0.24,9721,West,Net Banking,28-04-2023,18-05-2023,Delivered,Ravi,WH-C
+447,Keyboard,Accessories,Logitech,7,9456.73,0.01,9196,South,Credit Card,13-02-2023,25-04-2023,Delivered,Sara,WH-B
+448,Speaker,Peripherals,Dell,1,21552.56,0.24,3997,South,Cash on Delivery,15-11-2023,22-02-2023,Delivered,Anita,WH-C
+449,Laptop,Electronics,Samsung,1,62576.61,0.17,8447,North,UPI,28-05-2023,08-03-2023,Shipped,Priya,WH-D
+450,Tablet,Accessories,Apple,6,4845.9,0.22,2017,South,Cash on Delivery,16-12-2023,04-03-2023,Returned,David,WH-D
+451,Printer,Peripherals,HP,8,33899.75,0.21,8067,North,Debit Card,22-07-2023,08-09-2023,Shipped,Priya,WH-B
+452,Keyboard,Accessories,Lenovo,5,61826.27,0.03,6845,North,Cash on Delivery,07-01-2023,11-06-2023,Cancelled,Priya,WH-A
+453,Printer,Accessories,Lenovo,1,58468.4,0,6128,North,UPI,14-12-2023,03-07-2023,Cancelled,David,WH-D
+454,Speaker,Electronics,Dell,4,4093.84,0.22,9944,East,UPI,26-05-2023,01-09-2023,Delivered,Anita,WH-A
+455,Smartphone,Electronics,Logitech,5,69535.19,0.23,1515,East,Net Banking,06-03-2023,16-09-2023,Cancelled,Priya,WH-D
+456,Speaker,Accessories,HP,1,33775.7,0.05,5392,East,Net Banking,04-08-2023,14-10-2023,Shipped,Ravi,WH-D
+457,Printer,Accessories,HP,9,55274.69,0.03,4917,West,Credit Card,12-11-2023,15-04-2023,Returned,Priya,WH-A
+458,Speaker,Peripherals,Apple,6,21542.82,0.28,8872,South,Cash on Delivery,20-05-2023,06-02-2023,Delivered,Ravi,WH-D
+459,Tablet,Accessories,Logitech,2,39080.41,0.08,5848,South,UPI,03-01-2023,10-11-2023,Delivered,Ravi,WH-D
+460,Laptop,Accessories,HP,6,49570.6,0.06,1569,North,Net Banking,04-07-2023,22-06-2023,Returned,Ravi,WH-C
+461,Monitor,Electronics,Logitech,10,35581.91,0.15,6721,North,Debit Card,20-10-2023,23-09-2023,Returned,Priya,WH-C
+462,Laptop,Electronics,Lenovo,4,71012,0.11,2855,South,Credit Card,28-05-2023,05-12-2023,Shipped,David,WH-C
+463,Tablet,Peripherals,Dell,1,29219.13,0.26,3234,North,Cash on Delivery,16-03-2023,04-05-2023,Delivered,John,WH-C
+464,Tablet,Peripherals,Lenovo,1,75875.84,0.16,6296,North,UPI,11-08-2023,13-04-2023,Delivered,Anita,WH-B
+465,Keyboard,Electronics,Lenovo,3,27204.98,0.04,7364,North,Debit Card,08-12-2023,09-08-2023,Delivered,David,WH-A
+466,Headphones,Peripherals,Lenovo,4,69942.55,0.06,1046,West,UPI,06-11-2023,01-09-2023,Returned,Sara,WH-D
+467,Monitor,Accessories,Dell,9,51669.38,0.17,8723,East,UPI,26-10-2023,15-01-2023,Cancelled,Priya,WH-C
+468,Tablet,Peripherals,Lenovo,1,52065.17,0.01,6417,South,Credit Card,17-09-2023,13-03-2023,Returned,John,WH-A
+469,Smartphone,Accessories,Logitech,8,65129.81,0.3,1410,East,Debit Card,16-10-2023,27-10-2023,Delivered,Ravi,WH-B
+470,Webcam,Electronics,HP,8,1978.81,0.23,6851,East,UPI,23-02-2023,18-09-2023,Shipped,David,WH-C
+471,Laptop,Electronics,Logitech,6,13907.81,0.03,4560,South,UPI,20-08-2023,03-11-2023,Returned,David,WH-C
+472,Mouse,Accessories,Dell,4,32234.03,0.16,8658,North,Credit Card,23-06-2023,02-12-2023,Shipped,Sara,WH-D
+473,Laptop,Electronics,HP,10,46292.01,0.28,6124,South,Credit Card,03-03-2023,14-07-2023,Cancelled,Ravi,WH-B
+474,Smartphone,Peripherals,Samsung,4,6340.75,0.03,9269,South,Net Banking,18-10-2023,23-11-2023,Returned,Anita,WH-C
+475,Headphones,Accessories,Samsung,4,21320.56,0.11,8895,North,Debit Card,11-07-2023,27-06-2023,Delivered,Priya,WH-D
+476,Keyboard,Accessories,Samsung,7,64930.99,0.01,8163,West,Debit Card,16-08-2023,11-01-2023,Returned,David,WH-D
+477,Keyboard,Electronics,Lenovo,9,77699.23,0.19,6721,South,UPI,21-12-2023,13-10-2023,Cancelled,John,WH-C
+478,Smartphone,Peripherals,Samsung,8,34114.3,0.06,3677,North,Cash on Delivery,05-10-2023,06-03-2023,Cancelled,David,WH-C
+479,Tablet,Accessories,Logitech,3,75750.98,0.23,3218,West,UPI,10-07-2023,04-07-2023,Delivered,John,WH-C
+480,Smartphone,Electronics,Apple,8,45999.26,0.28,8553,East,Net Banking,16-06-2023,01-03-2023,Shipped,John,WH-B
+481,Laptop,Accessories,HP,10,46504.47,0.01,4233,East,UPI,26-11-2023,08-08-2023,Delivered,Priya,WH-A
+482,Speaker,Electronics,Apple,1,49700.66,0.26,4693,South,Credit Card,14-06-2023,15-05-2023,Delivered,Sara,WH-C
+483,Webcam,Accessories,Samsung,3,68657.47,0.09,9966,West,Cash on Delivery,13-09-2023,10-04-2023,Returned,David,WH-B
+484,Laptop,Electronics,HP,1,39917.33,0.06,3396,North,UPI,28-09-2023,16-01-2023,Returned,Anita,WH-C
+485,Tablet,Electronics,Samsung,3,72171.13,0.08,1265,South,Credit Card,10-04-2023,18-04-2023,Returned,Sara,WH-C
+486,Speaker,Peripherals,Apple,7,67873.26,0.11,4749,West,Credit Card,02-05-2023,23-05-2023,Cancelled,Ravi,WH-B
+487,Printer,Electronics,Lenovo,7,68499.49,0.17,7845,East,Credit Card,19-07-2023,26-03-2023,Cancelled,David,WH-C
+488,Laptop,Electronics,Samsung,6,79310.02,0.17,5484,South,Cash on Delivery,24-05-2023,22-06-2023,Shipped,Ravi,WH-C
+489,Keyboard,Electronics,Samsung,4,19979.66,0.17,8801,South,UPI,12-10-2023,14-04-2023,Cancelled,David,WH-B
+490,Printer,Accessories,Lenovo,3,50423.3,0.1,7477,West,Credit Card,03-05-2023,28-03-2023,Returned,David,WH-C
+491,Printer,Accessories,Samsung,5,57471.65,0.18,7591,West,Credit Card,06-04-2023,27-09-2023,Cancelled,Sara,WH-C
+492,Speaker,Peripherals,Samsung,9,77035.05,0.28,2714,East,Credit Card,12-05-2023,09-09-2023,Cancelled,Priya,WH-A
+493,Speaker,Accessories,Lenovo,3,30903.74,0.3,3326,South,Debit Card,08-04-2023,17-10-2023,Delivered,David,WH-D
+494,Monitor,Electronics,Lenovo,8,10772.41,0.03,5211,East,UPI,01-12-2023,15-01-2023,Shipped,John,WH-A
+495,Speaker,Peripherals,Apple,5,6071.57,0.01,8345,East,Debit Card,16-06-2023,25-02-2023,Shipped,Ravi,WH-D
+496,Laptop,Accessories,Apple,3,29125.94,0.24,6285,North,Credit Card,15-07-2023,02-10-2023,Delivered,John,WH-C
+497,Laptop,Electronics,Apple,6,12387.21,0.03,4350,North,Net Banking,28-03-2023,04-10-2023,Cancelled,John,WH-C
+498,Headphones,Peripherals,Lenovo,7,63857.26,0.05,4687,West,Net Banking,16-04-2023,07-06-2023,Delivered,Sara,WH-B
+499,Monitor,Peripherals,Lenovo,5,50061.91,0.23,9282,East,UPI,09-03-2023,22-06-2023,Returned,Ravi,WH-D
+500,Laptop,Peripherals,Dell,2,336.47,0.2,6268,South,Debit Card,09-01-2023,13-11-2023,Cancelled,John,WH-B
+501,Mouse,Accessories,Samsung,8,16965.15,0.16,8076,East,Net Banking,09-05-2023,17-05-2023,Shipped,Sara,WH-A
+502,Smartphone,Electronics,HP,5,24450.27,0.03,2455,South,Net Banking,13-10-2023,10-05-2023,Returned,Ravi,WH-A
+503,Mouse,Accessories,Dell,10,61891.14,0.22,4210,West,Credit Card,06-10-2023,06-09-2023,Returned,Anita,WH-B
+504,Laptop,Accessories,Apple,8,24363.49,0.27,6517,North,UPI,05-07-2023,25-04-2023,Shipped,Priya,WH-D
+505,Laptop,Electronics,Apple,8,67535.87,0.3,3255,East,Credit Card,17-02-2023,06-12-2023,Delivered,Ravi,WH-D
+506,Laptop,Electronics,Logitech,4,1105.52,0.2,4356,West,Cash on Delivery,06-04-2023,11-10-2023,Returned,Anita,WH-D
+507,Mouse,Peripherals,Dell,2,1697.99,0.14,2127,North,Debit Card,19-06-2023,21-03-2023,Shipped,Anita,WH-A
+508,Mouse,Accessories,Apple,3,51931.26,0.12,6266,West,Net Banking,19-12-2023,10-05-2023,Cancelled,John,WH-D
+509,Speaker,Accessories,Dell,6,26901.33,0.3,5719,East,Net Banking,09-02-2023,06-10-2023,Shipped,David,WH-A
+510,Smartphone,Accessories,HP,3,41839.38,0.17,2230,North,Net Banking,12-06-2023,17-05-2023,Cancelled,Anita,WH-D
+511,Keyboard,Accessories,Dell,10,50880.95,0.28,2724,North,Net Banking,08-07-2023,23-04-2023,Cancelled,Sara,WH-B
+512,Speaker,Accessories,HP,6,76363.71,0.25,5302,East,UPI,27-08-2023,13-02-2023,Delivered,David,WH-A
+513,Mouse,Electronics,HP,10,43320.08,0.13,4545,West,Credit Card,18-11-2023,15-03-2023,Cancelled,Anita,WH-A
+514,Speaker,Accessories,Dell,7,44047.14,0.06,5354,South,Net Banking,19-02-2023,02-09-2023,Delivered,Priya,WH-B
+515,Smartphone,Electronics,Apple,6,35312.79,0.09,6796,South,Debit Card,28-06-2023,16-07-2023,Returned,David,WH-D
+516,Mouse,Electronics,Dell,5,39392.02,0.1,6339,West,Credit Card,12-08-2023,10-01-2023,Cancelled,Anita,WH-D
+517,Speaker,Peripherals,Apple,1,518.11,0.07,3952,West,Net Banking,21-12-2023,26-08-2023,Cancelled,David,WH-C
+518,Printer,Electronics,Lenovo,1,52568.15,0.18,4243,West,Cash on Delivery,15-10-2023,06-02-2023,Shipped,Priya,WH-B
+519,Headphones,Electronics,Dell,9,45401.41,0.23,1756,South,Credit Card,17-09-2023,24-07-2023,Shipped,Priya,WH-B
+520,Laptop,Electronics,Apple,10,45818.81,0.07,7178,South,Net Banking,26-10-2023,27-05-2023,Cancelled,Priya,WH-C
+521,Smartphone,Electronics,Lenovo,1,65422.32,0.2,1824,East,Cash on Delivery,22-07-2023,10-08-2023,Returned,David,WH-C
+522,Webcam,Accessories,Logitech,6,74865.21,0.25,1597,South,Cash on Delivery,20-06-2023,12-01-2023,Shipped,Priya,WH-C
+523,Webcam,Accessories,HP,3,3893.5,0.24,1311,North,Credit Card,01-02-2023,01-10-2023,Shipped,Anita,WH-D
+524,Headphones,Peripherals,Logitech,1,5758.5,0.04,6961,West,Cash on Delivery,01-07-2023,09-08-2023,Returned,Priya,WH-A
+525,Speaker,Electronics,Lenovo,7,13456.58,0.22,8375,South,Cash on Delivery,17-08-2023,27-02-2023,Delivered,Priya,WH-D
+526,Monitor,Accessories,Lenovo,10,52048.94,0.08,2183,East,Net Banking,23-10-2023,25-01-2023,Shipped,Ravi,WH-B
+527,Smartphone,Peripherals,Dell,1,67211.22,0.22,5438,North,Credit Card,24-12-2023,03-08-2023,Cancelled,Ravi,WH-D
+528,Keyboard,Accessories,Lenovo,7,30314.95,0.25,4419,South,Net Banking,08-10-2023,20-03-2023,Delivered,John,WH-B
+529,Mouse,Accessories,HP,3,12016.75,0,9829,South,Debit Card,06-11-2023,05-02-2023,Returned,Ravi,WH-D
+530,Mouse,Accessories,HP,1,79881.26,0.16,3311,West,Debit Card,07-09-2023,04-04-2023,Delivered,Anita,WH-D
+531,Tablet,Peripherals,Dell,7,44469.04,0.27,9299,North,UPI,13-05-2023,12-02-2023,Cancelled,Anita,WH-C
+532,Speaker,Electronics,Apple,8,4012.06,0,1961,South,Debit Card,16-06-2023,06-05-2023,Shipped,Priya,WH-B
+533,Webcam,Peripherals,Samsung,5,37710.71,0.2,5725,North,Cash on Delivery,06-08-2023,10-06-2023,Shipped,Anita,WH-B
+534,Smartphone,Electronics,Logitech,1,51480.52,0.05,5498,West,Cash on Delivery,01-09-2023,26-06-2023,Delivered,David,WH-C
+535,Headphones,Electronics,HP,10,49166.57,0.27,6540,South,Cash on Delivery,20-02-2023,10-01-2023,Cancelled,Ravi,WH-B
+536,Webcam,Accessories,Lenovo,6,76130.27,0.25,4403,East,Cash on Delivery,19-03-2023,09-05-2023,Cancelled,Priya,WH-A
+537,Keyboard,Accessories,Lenovo,4,46398.85,0.07,1143,West,UPI,04-11-2023,13-08-2023,Delivered,David,WH-A
+538,Smartphone,Electronics,HP,4,2929.64,0.28,8192,East,UPI,08-06-2023,22-08-2023,Shipped,Sara,WH-C
+539,Webcam,Peripherals,HP,4,19427.67,0.1,2099,South,UPI,24-05-2023,20-03-2023,Returned,Anita,WH-B
+540,Headphones,Electronics,Apple,5,75265.44,0.22,5354,North,Net Banking,05-04-2023,17-02-2023,Returned,Priya,WH-D
+541,Mouse,Electronics,Logitech,5,14006.55,0.18,2060,West,Debit Card,12-12-2023,21-10-2023,Returned,Anita,WH-B
+542,Laptop,Accessories,HP,5,1755.46,0.19,5676,South,Net Banking,07-12-2023,26-07-2023,Shipped,David,WH-C
+543,Laptop,Electronics,Dell,2,50501.46,0.04,1779,South,UPI,04-07-2023,28-12-2023,Shipped,David,WH-B
+544,Webcam,Accessories,Dell,1,63602.23,0.26,7820,South,Credit Card,22-01-2023,19-03-2023,Cancelled,Ravi,WH-A
+545,Speaker,Peripherals,Dell,9,74053.43,0.17,6328,South,Cash on Delivery,05-10-2023,15-02-2023,Delivered,Priya,WH-B
+546,Headphones,Peripherals,HP,8,55192.21,0.11,8328,South,Credit Card,25-06-2023,20-02-2023,Cancelled,Sara,WH-D
+547,Tablet,Peripherals,Lenovo,3,50124.98,0.17,6504,West,Net Banking,22-09-2023,20-02-2023,Returned,Anita,WH-D
+548,Webcam,Electronics,Lenovo,9,44101.74,0.17,4476,East,Net Banking,07-07-2023,22-05-2023,Shipped,Priya,WH-B
+549,Mouse,Electronics,Logitech,2,29675.79,0.14,3116,West,Net Banking,01-04-2023,24-09-2023,Cancelled,Ravi,WH-D
+550,Printer,Electronics,Apple,7,69395.25,0.29,3844,North,Credit Card,10-01-2023,11-04-2023,Shipped,John,WH-B
